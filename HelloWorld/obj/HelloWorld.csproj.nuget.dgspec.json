@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvx\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvc\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvx\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvc\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvx\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvc\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvx\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvc\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\ritch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvx\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\ritch\\OneDrive\\Repositories\\AspDotNetCoreMvc\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ritch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

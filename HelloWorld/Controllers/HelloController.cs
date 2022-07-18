@@ -6,7 +6,9 @@ namespace HelloWorld.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Hello World!");
+            ViewBag.Message = "Hello World!";
+            ViewData["Now"] = DateTime.Now;
+            return View();
         }
     }
 }
